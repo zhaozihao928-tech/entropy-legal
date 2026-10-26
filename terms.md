@@ -2,12 +2,12 @@
 
 **Last updated: 2026-10-26**
 
-These terms apply to **yt-cli**, a private command-line tool operated by the
+These terms apply to **Finished**, a private command-line tool operated by the
 owner of the YouTube channel "熵减日记" (the "Operator").
 
 ## 1. Scope
 
-yt-cli is a private, single-user tool used exclusively by the Operator to upload
+Finished is a private, single-user tool used exclusively by the Operator to upload
 the Operator's own video content to the Operator's own YouTube channel. It is not
 sold, licensed, distributed or made available to any third party, and it provides
 no service to the public.
@@ -27,7 +27,7 @@ any form of data resale.
 
 ## 3. Compliance with YouTube
 
-Use of yt-cli is subject to the
+Use of Finished is subject to the
 [YouTube Terms of Service](https://www.youtube.com/t/terms) and the
 [YouTube API Services Terms of Service](https://developers.google.com/youtube/terms/api-services-terms-of-service).
 

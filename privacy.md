@@ -2,18 +2,18 @@
 
 **Last updated: 2026-10-26**
 
-This policy applies to **yt-cli**, a private command-line tool operated by the
+This policy applies to **Finished**, a private command-line tool operated by the
 owner of the YouTube channel "熵减日记" (the "Operator").
 
 ## 1. Who this covers
 
-yt-cli is a single-user tool. It is not distributed, not published, and has no
+Finished is a single-user tool. It is not distributed, not published, and has no
 users other than the Operator. There is no public sign-up, no account system, and
 no third-party access.
 
 ## 2. What data the tool handles
 
-The only data yt-cli touches is:
+The only data Finished touches is:
 
 - **The Operator's own Google account credentials** — specifically an OAuth 2.0
   access token and refresh token issued by Google when the Operator authorises
@@ -52,7 +52,7 @@ so does not affect anything on YouTube.
 
 ## 6. YouTube API Services
 
-yt-cli uses YouTube API Services. By using this tool the Operator agrees to be
+Finished uses YouTube API Services. By using this tool the Operator agrees to be
 bound by the
 [YouTube Terms of Service](https://www.youtube.com/t/terms).
 

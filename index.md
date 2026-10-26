@@ -1,6 +1,6 @@
-# Entropy Diary — yt-cli
+# Entropy Diary — Finished
 
-Legal documents for **yt-cli**, a private single-user command-line tool used by
+Legal documents for **Finished**, a private single-user command-line tool used by
 the owner of the YouTube channel *熵减日记 (Entropy Reduction Diary)* to publish
 their own videos to their own channel.
 
