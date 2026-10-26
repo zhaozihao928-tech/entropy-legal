@@ -40,15 +40,37 @@ Data is sent only to Google's own API endpoints over HTTPS
 for the purpose of uploading the Operator's own content to the Operator's own
 channel. No other destination receives any data.
 
-## 5. Data retention and deletion
+## 5. Data Deletion
 
-The OAuth token stays on the device until the Operator deletes the file or
-revokes access at https://myaccount.google.com/permissions. Revoking access
-invalidates the token immediately; the tool then fails to authenticate until
-re-authorised.
+**How to delete the data this tool holds**
 
-Local publishing logs can be deleted at any time by deleting the log file; doing
-so does not affect anything on YouTube.
+The tool stores exactly two things on the Operator's device: an OAuth token file
+and a local publishing log. Both are deleted as follows.
+
+| Data | How to delete it | How long it takes |
+|---|---|---|
+| OAuth access token and refresh token | Delete the token file on the device, **and** revoke the grant at https://myaccount.google.com/permissions | Revocation is immediate |
+| Local publishing log (file names, video IDs, timestamps) | Delete the log file on the device | Immediate |
+| Uploaded videos, thumbnails and captions | Deleted in YouTube Studio, or via the YouTube API | Within 24 hours of deletion, per YouTube's own policy |
+
+**Revoking access**
+
+Visit https://myaccount.google.com/permissions, find the entry named
+"Finished", and click "Remove access". The stored token stops working
+immediately. The tool cannot access YouTube again until the Operator authorises
+it again.
+
+**What is NOT stored**
+
+The tool keeps no server, no cloud database and no backup. It does not store
+viewer data, comments, analytics or any information about anyone other than the
+Operator. There is therefore nothing to request, export or delete on a server —
+deleting the two local files removes everything.
+
+**Contact for deletion requests**
+
+Because the tool has a single user, any deletion request can only come from that
+user. For any question: zhaozihao928@gmail.com
 
 ## 6. YouTube API Services
 
